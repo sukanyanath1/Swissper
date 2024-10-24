@@ -1,0 +1,17 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch
+torchvision
+torchaudio
+transformers
+accelerate
+evaluate
+lxml
+datasets[audio]
+jupyter
+jiwer 
+tensorboard 
+gradio
+chardet
+tabulate
+ffmpeg
+ffmpeg-python
