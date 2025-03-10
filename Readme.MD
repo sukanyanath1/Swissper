@@ -2,7 +2,7 @@
 
 This repository shares how Whisper can be finetuned on Swiss German data. The code uses accelerate on Huggingface and is also suitable for usage with multiple GPUs. There is also an example script for using on SLURM ```run_script_on_ubelix_accelerate.sh```. 
 
-Current Dataset
+### Current Dataset
 1. Archimob Corpus
 
 Steps to set up
@@ -13,7 +13,7 @@ Steps to set up
 5. If the script is to be run on Ubelix, change the required parameters in the script ```slurm.sh``` such as the partictions and GPUS and ```num_processes``` in the accelerate command.
 
 
-Steps in the SwissperX project
+### Steps in the SwissperX project
 
 1. Collect the datasets [Swiss Parliament Corpus ](https://cs.technik.fhnw.ch/i4ds-datasets) and [Swiss Dial Datasets](https://mtc.ethz.ch/publications/open-source/swiss-dial.html)
 2. Preprocess all three datasets to a format linking (audio file location, id number and transcriptions in swiss standard german and standard german). Pay attention that all the datasets have a swiss standard german.
