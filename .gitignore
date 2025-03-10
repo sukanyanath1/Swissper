@@ -12,5 +12,6 @@ finetune_ubelix.ipynb
 finetune_ubelix.py
 finetune.ipynb
 run_script_on_ubelix.sh
-
-
+old
+model_checkpoints
+processed_data
